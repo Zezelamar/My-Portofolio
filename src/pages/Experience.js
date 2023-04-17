@@ -61,7 +61,7 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className='vertical-timeline-element-title'>
-           Orange Mali
+           Orange Mali, Bamako, Mali
           </h3>
           <p>Internship in Data Science & Data Analysis </p>
         </VerticalTimelineElement>

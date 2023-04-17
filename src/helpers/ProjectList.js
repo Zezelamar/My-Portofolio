@@ -1,5 +1,7 @@
 import Proj1 from "../assets/web_site.png"
 import Proj2 from "../assets/IDS.png"
+import Proj3 from "../assets/house.png"
+import Proj4 from "../assets/school.png"
 export const ProjectList = [
     {
         name: "Web Application for a survey",
@@ -14,17 +16,18 @@ export const ProjectList = [
     },
     {
         name: "School Registration System",
-        image: Proj1,
+        image: Proj4,
         skills:"Python",
     },
     {
         name: "Age and Gender Detection",
         image: Proj1,
-        skills:"Python, CNN"
+        skills:"Python, CNN, OpenCV"
     },
     {
         name: "House Price Prediction ",
-        image: Proj1,
-        skills:"Python, Jupyter Notebok, HTML, Bootstrap"
+        image: Proj3,
+        skills:"Python, Jupyter Notebok, HTML, Bootstrap",
+        link:"https://github.com/Zezelamar/californiahousepricing"
     },
 ]
