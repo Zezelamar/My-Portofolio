@@ -13,11 +13,11 @@ import '../styles/Experience.css'
 function Experience() {
   return (
     <div className="experience">
-      <VerticalTimeline lineColor='#3e497a'>
+      <VerticalTimeline lineColor='#0f2862'>
         <VerticalTimelineElement 
           className="vertical-timeline-ellement--education" 
           date="2012-2015"
-          iconStyle={{background:"#3e497a", color:"black"}}
+          iconStyle={{background:"#0f2862", color:"black"}}
           icon={<SchoolIcon />}
         >
           <h3 className='vertical-timeline-element-title'>
@@ -29,7 +29,7 @@ function Experience() {
         <VerticalTimelineElement 
           className="vertical-timeline-ellement--education" 
           date="2015-2018"
-          iconStyle={{background:"#3e497a", color:"white"}}
+          iconStyle={{background:"#0f2862", color:"white"}}
           icon={<SchoolIcon />}
         >
           <h3 className='vertical-timeline-element-title'>
@@ -55,9 +55,9 @@ function Experience() {
         <VerticalTimelineElement 
           className="vertical-timeline-ellement--work" 
           date="2023-present"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          iconStyle={{background:"#3e497a", color:"white"}}
+          contentStyle={{ background: '#0f2862', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  #0f2862' }}
+          iconStyle={{background:"#0f2862", color:"white"}}
           icon={<WorkIcon />}
         >
           <h3 className='vertical-timeline-element-title'>
