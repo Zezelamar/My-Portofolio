@@ -6,7 +6,7 @@ import '../styles/Footer.css'
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" >
         <div className="socialMedia">
             <a href="https://www.instagram.com/zeze_lamar/"><InstagramIcon /></a>
             <a href="https://linkedin.com/in/zeze-deyoko-zz77270827"><LinkedInIcon />   </a>
