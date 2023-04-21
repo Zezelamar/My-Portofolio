@@ -17,7 +17,7 @@
 }
 
 .navbar a {
-    color: #e1b382;
+    color: #f1f0ee;
     text-decoration: none;
     margin: 20px;
     font-size: 25px;
@@ -39,7 +39,7 @@
     margin-right: 20px;
     background-color: transparent;
     border:none;
-    color: white;
+    color: #f1f0ee;
     cursor: pointer;
 }
 
@@ -72,6 +72,10 @@
     }
     #close a {
       display: none;
+    }
+    .toggleButton button{
+
+      background-color: transparent;
     }
   }
   
